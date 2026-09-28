@@ -1,0 +1,18 @@
+# Library imports
+from vex imports
+
+#Begin project code
+
+
+while True:
+    brain.screen.set_cursor(1,1)
+    brain.screen.print(my_bumper.pressing())
+
+    brain.screen.set_cursor(3,1)
+    brain.screen.print(my_limit.pressing())
+
+    brain.screen.set_cursor(5,1)
+    brain.screen.print(my_poten.angle(DEGREES))
+    
+    brain.screen.set_cursor(7,1)
+    brain.screen.print(my_tracker.reflectivity(PERCENT))
